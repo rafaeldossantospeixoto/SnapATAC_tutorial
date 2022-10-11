@@ -1,6 +1,9 @@
+# qrsh -l mem_free=32G,h_vmem=32g
 # module load python
-# module load cellranger
+# pip install leidenalg ## does not work with conda installation https://github.com/scverse/scanpy/issues/2341
+# module load bedtools/2.30.0
 # cd hpc/SnapATAC_tutorial/
+# python
 
 ### Introduction
 # In addition to SnapATAC2, we will utilize scanpy and scglue to perform the integration.
